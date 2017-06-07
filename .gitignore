@@ -1,0 +1,34 @@
+# +---------------------------------------------------------------------------+
+# | general ignore setup                                                      |
+# +---------------------------------------------------------------------------+
+# ignore temporary files from editor
+*.bak
+*.elc
+*.swp
+*.s
+*.tmp
+*.vhd.~y.yy~
+*.vhd.~
+
+# ignore editor configuration settings
+Session.vim
+tags
+
+# ignore CVS directories if present
+/**/CVS
+
+
+# +---------------------------------------------------------------------------+
+# | project specific ignore setup                                             |
+# +---------------------------------------------------------------------------+
+# C source related ignore settings (only add if needed)
+*.o
+*.ko
+*.obj
+*.elf
+*.gch
+*.pch
+*.so
+*.out
+*.app
+# add all your specific ignores here
